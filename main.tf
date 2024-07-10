@@ -4,7 +4,7 @@ resource "aws_instance" "app_server" {
   version = "~> 4.16"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "aws-Instance"
   }
 }
 
